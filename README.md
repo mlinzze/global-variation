@@ -47,7 +47,7 @@ Instructions to Replicators
 Replication of all figures:
 - Note that all scripts require the data which can be accessed from the sources listed in the `Data availability` section.
 - The file `parameters.py` includes the global variable DATAPATH that must be set by the user prior to executing the scripts. The variable links to the directory in which the data are stored.
-- The name of each script also indicates its relative position in the intended order of execution (i.e. `p01`, `p02`, `p03`, ...).
+- The name of each script also indicates its relative position in the intended order of execution (i.e. `01_`, `02_`, `03_`, ...).
 - The replication is facilitated with a Makefile that runs the scripts in the correct order (`make clean; make all`).
 - Some of the scripts store results (e.g. regression coefficients) in the folder `results`.
 - Once all scripts have finished, all figures can be found in the folder `figures` and tables in the folder `tables`.
