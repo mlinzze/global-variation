@@ -50,7 +50,7 @@ Replication of all figures:
 - The replication is facilitated with a Makefile that runs the scripts in the correct order (`make clean; make all`).
 - Note that the name of each script also indicates its relative position in the intended order of execution (i.e. `p01`, `p02`, `p03`, ...).
 - Note that all scripts require the data which can be accessed from the sources listed in the `Data availability` section.
-- Some of the scripts store intermediate data in the folder `data`.
+- Some of the scripts store results (e.g. regression coefficients) in the folder `results`.
 - Once all scripts have finished, all figures can be found in the folder `figures` and tables in the folder `tables`.
 
 ### License for Code and Data
